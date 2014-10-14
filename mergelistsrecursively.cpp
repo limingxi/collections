@@ -17,4 +17,5 @@ Node* merge(Node* p, Node* q){
 		res=q;
 		res->next=merge(p,q->next);
 	}
+	return res;
 }
